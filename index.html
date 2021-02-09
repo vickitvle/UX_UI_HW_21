@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Home Brew</title>
+</head>
+<body>
+
+<div id="navbar">
+    <h1><a href="#home">Home Brew <img src="images/cup.svg"></a></h1>
+    <div class="navigation">
+        <div class="dropdown">
+            <button class="dropbtn">Getting Started
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Coffee Basics</a>
+                <a href="#">Brewing Guides</a>
+            </div>
+        </div> 
+
+        <div class="dropdown">
+            <button class="dropbtn">Tips & Tricks
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Perfecting Your Brew</a>
+                <a href="#">Latte Art at Home</a>
+            </div>
+        </div> 
+
+        <div class="dropdown">
+            <button class="dropbtn">Explore
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Coffee Finder</a>
+                <a href="#">Community Shop</a>
+                <a href="#">Events</a>
+                <a href="#">Blog</a>
+            </div>
+        </div> 
+    </div>
+
+    <div class="search">
+        <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+        </form>
+    </div>
+
+    <div id="mydiv">
+        <div id="mydivheader"></div>
+        <div id="dropDown">
+            <h3>Coffee Basics <i class="fa fa-angle-double-right" aria-hidden="true"></i></h3>
+            <h3>Brewing Guides <i class="fa fa-angle-double-right" aria-hidden="true"></i></h3>
+            <h3>Perfecting Your Brew <i class="fa fa-angle-double-right" aria-hidden="true"></i></h3>
+            <h3>Latte Art at Home <i class="fa fa-angle-double-right" aria-hidden="true"></i></h3>
+            <h3>Coffee Finder <i class="fa fa-angle-double-right" aria-hidden="true"></i></h3>
+            <h3>Community Shop <i class="fa fa-angle-double-right" aria-hidden="true"></i></h3>
+            <h3>Events <i class="fa fa-angle-double-right" aria-hidden="true"></i></h3>
+            <h3>Blog <i class="fa fa-angle-double-right" aria-hidden="true"></i></h3>
+        </div>
+    </div>
+
+    <!-- <div class="searchBar">
+        <form action="#" id="searchForm">
+        <h1>What are you looking for?</h1>
+          <input class="w3-input w3-border" type="text" placeholder="Find something.." required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div> -->
+</div>
+
+
+<!-- Hero -->
+
+<section id="hero">
+    <div class="heroGrid">
+        <div class="text1">
+            <h2>Home Brew</h2>
+        </div>
+
+        <div class="text2">
+            <h3>[hohm-broo], <i>n.</i></h3>
+        </div>
+
+        <div class="text3">
+            <ul>
+                <li><p>A beginner's guide on how to brew coffee in the comfort of your own home.</p></li>
+                <li><p>A great conversation starter for both novice and expert coffee enthusiasts alike.</p></li>
+            </ul>
+        </div>
+
+         <div class="circle">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+                <defs>
+                    <path id="circlePath" d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "/>
+                </defs>
+                <circle cx="150" cy="100" r="75" fill="none"/>
+                <g>
+                    <use xlink:href="#circlePath" fill="none"/>
+                    <text fill="#000">
+                        <textPath xlink:href="#circlePath">Click here to started on your coffee journey!</textPath>
+                    </text>
+                </g>
+            </svg>
+        </div>
+    </div>
+</section>
+
+<!-- coffee basics -->
+
+<section id="coffeeBasics">
+    <div class="flexGrid1">
+        <a href="#"><h4>COFFEE BASICS</h4></a>
+        <h1>The 3 Things You Need to Get Started:</h1>
+    </div>
+    <div class="flexGrid2">
+        <div class="beans">
+            <span class="number">A</span> <h1>The Beans <img src="images/bean.svg"></h1> <h4>FRESHNESS MATTERS!</h4>
+            <p>Ditch that tub of pre-ground, stale, grocery store coffee and try to buy freshly roasted whole bean specialty coffee from your local third wave coffee shop or have them delivered fresh to your door. 
+            <br>
+            <div class="basicsLinks"><a href="#"><h3>Find your bean(s) <i class="fa fa-angle-double-right" aria-hidden="true"></i></h3></a></div>
+            </div>
+        <div class="water">
+            <span class="number">B</span> <h1>The Water <i class="fa fa-tint" aria-hidden="true"></i></h1>
+            <h4>USE FILTERED WATER!</h4>
+            <p>Coffee is 98% water, so if your water tastes good, your coffee will taste good. Try to avoid using tap water and use filtered water if possible; you'll definitely taste the difference.</p>
+            <div class="basicsLinks"><a href="#"><h3>Improve your brew <i class="fa fa-angle-double-right" aria-hidden="true"></i></h3></a></div>
+        </div>
+        <div class="grind">
+            <span class="number">C</span> <h1>The Gear <img src="images/gear.svg"></h1> <h4>CONSISTENCY IS KEY!</h4>
+            <p>From auto drip to manual brew, you can make a quality cup of coffee worthy of barista praise in the comfort of your own home with minimal effort and little investment. </p>
+            <div class="basicsLinks"><a href="#"><h3>Brewing methods <i class="fa fa-angle-double-right" aria-hidden="true"></i></h3></a></div>
+        </div>
+    </div>
+</section>
+
+<!-- Brewing guides -->
+
+<section id="brewingGuides">
+    <div class="flexGrid1">
+        <a href="#"><h4>BREWING METHODS</h4></a>
+        <h1>Find The Right Brew For You:</h1>
+    </div>
+    <div class="flexGrid3">
+        <div class="flexLinks coldbrew">
+            <a href="#"><span class="number">1</span> <h1>Cold Brew vs Iced Coffee</h1></a>
+        </div>
+        <div class="flexLinks frenchPress">
+            <span class="number">2</span> <h1>French Press</h1>
+        </div>
+        <div class="flexLinks chemex">
+            <span class="number">3</span><h1>Chemex</h1>
+        </div>
+        <div class="flexLinks pourover">
+            <span class="number">4</span><h1>Pour Over</h1>
+        </div>
+        <div class="flexLinks siphon">
+            <span class="number">5</span><h1>Siphon</h1>
+        </div>
+        <div class="flexLinks mokapot">
+            <span class="number">6</span><h1>Moka Pot</h1>
+        </div>
+        <div class="flexLinks aeropress">
+            <span class="number">7</span><h1>Aeropress</h1>
+        </div>
+        <div class="flexLinks espresso">
+            <span class="number">8</span><h1>Espresso</h1>
+        </div>
+    </div>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
