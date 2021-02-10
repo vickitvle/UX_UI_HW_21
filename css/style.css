@@ -1,4 +1,4 @@
-html {
+* {
     scroll-behavior: smooth !important;
 }
 
@@ -244,6 +244,7 @@ section {
     border-radius: 50%;
     border: 1px solid black;
     margin-right: 50px;
+    scroll-behavior: smooth;
 }
 
 .circle:hover {

@@ -4,7 +4,6 @@ $("#mydivheader").on("click", function(){
 
 window.onscroll = function() {
   menu();
-  scroll();
 }
 
 function menu() {
